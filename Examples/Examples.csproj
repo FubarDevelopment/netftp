@@ -85,9 +85,9 @@
     <Compile Include="ValidateCertificate.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\System.Net.FtpClient\System.Net.FtpClient.csproj">
-      <Project>{E963B766-56BF-4966-8917-88C1EE69D61A}</Project>
-      <Name>System.Net.FtpClient</Name>
+    <ProjectReference Include="..\System.Net.FtpClient.Net40\System.Net.FtpClient.Net40.csproj">
+      <Project>{b60c1fee-0f10-486e-9b05-03a8f6070fdb}</Project>
+      <Name>System.Net.FtpClient.Net40</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

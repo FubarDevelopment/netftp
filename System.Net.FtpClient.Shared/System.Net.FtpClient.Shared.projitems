@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f6539bf3-2ae6-4afd-98c5-cce095a1f07f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>System.Net.FtpClient</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\GetChecksum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\MD5.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\XCRC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\XMD5.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\XSHA1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\XSHA256.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\XSHA512.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpDataStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpEnums.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpExceptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpExtensionAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpHash.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpListItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpReply.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpSocketStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FtpTrace.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IFtpClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IFtpListItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IFtpReply.cs" />
+  </ItemGroup>
+</Project>
