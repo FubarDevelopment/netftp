@@ -5,7 +5,7 @@ be easy to use and easy to extend. Aside from normal FTP client features, it sup
 SSL/TLS connections for command and data channels and parsing various file listing formats.
 This project is being developed with C#.
 
-Information
+# Information
 
 Please read over the documentation page before writing any code. There is important
 information there that will help you along the way. There is an API reference included with
